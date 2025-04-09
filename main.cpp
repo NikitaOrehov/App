@@ -1,4 +1,4 @@
-#include "mainwindow.h"
+#include "windowManager.h"
 
 #include <QApplication>
 #include <QMainWindow>
@@ -13,8 +13,8 @@
 
 int main(int argc, char *argv[]) {
     QApplication a(argc, argv);
-    MainWindow w;
-    // w.show();
+    WindowManager w;
+    w.show();
     return a.exec();
 }
 //#include "main.moc"
